@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/Home/HeroSection";
 import UpcomingCourses from "./components/Home/UpcomingCourse";
 import TrainersSection from "./components/Home/Trainers";
+import StudentSuccessSection from "./components/Home/Success";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <HeroSection />
         <UpcomingCourses />
         <TrainersSection />
+        <StudentSuccessSection />
       </main>
     </>
   );
