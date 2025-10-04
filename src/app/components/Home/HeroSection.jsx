@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-slate-900 overflow-hidden mt-8">
+    <section className="relative min-h-screen flex items-center justify-center bg-slate-900 overflow-hidden mt-8 pb-8">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:64px_64px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_50%,black,transparent)]" />
@@ -37,8 +37,8 @@ export default function HeroSection() {
             {/* Subtitle */}
             <p className="text-xl text-slate-300 mb-8 leading-relaxed max-w-2xl">
               Join elite coders mastering algorithms, data structures, and
-              problem-solving. ICPC, Google Code Jam, and top coding
-              interviews with expert guidance.
+              problem-solving. ICPC, Google Code Jam, and top coding interviews
+              with expert guidance.
             </p>
 
             {/* CTA Buttons */}
@@ -104,17 +104,17 @@ export default function HeroSection() {
               <div className="space-y-6">
                 {[
                   {
-                    title: "Algorithm Mastery",
+                    title: "Advanced Algorithms & Data Structures",
                     progress: 75,
                     color: "bg-amber-500",
                   },
                   {
-                    title: "Data Structures Pro",
+                    title: "Dynamic Programming Masterclass",
                     progress: 60,
                     color: "bg-blue-500",
                   },
                   {
-                    title: "Problem Solving",
+                    title: "Competitive Programming Bootcamp",
                     progress: 85,
                     color: "bg-emerald-500",
                   },
